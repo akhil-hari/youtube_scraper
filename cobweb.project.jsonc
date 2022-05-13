@@ -1,0 +1,12 @@
+
+//This file marks the projects root directory,it contains
+//project information
+{
+   "name": "youtube_scraper",
+   "description": "A bot to scrape data from youtube",
+   "repo": "none",
+   "author": "Akhil H Nair",
+   "email": "aklhnrpm@gmail.com",
+   "website": "https://www.youtube.com",
+   "platform": "python(Pycobweb)"
+}

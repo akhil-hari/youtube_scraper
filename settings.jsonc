@@ -1,0 +1,27 @@
+
+// * Settings file in jsonc format ie, json with comments.
+
+{
+    "localMode": "normal",
+    "maxRetry": 20, //max number of retries
+    "timeout": 20,
+    "threads": 1,
+    "uniqeCheck": false,
+    "proxy": null,
+    "backend": "httpx<python>", //default module to be used to send requests
+ // Cache settings
+    "localCache": true, // no cache will be saved on local runs.
+    "noCache": false, // If true cache feature will be compleately desabled.
+    "cacheExpire": {
+                    // time period to clear the cache available params -> day, week, , hour, minute, second, millisecond, microsecond.
+                    "day":7
+                    },
+// DataStore Settings
+    "dataStoreBufferStratagy": "TimeBuffer",//TimeBuffer, CountBuffer or None(no buffering)
+    "dataStoreTimeBufferIntervel": 5
+    // "dataStoreCountBufferThreshold": 10,
+    // "dataStoreCountBufferIntervel": 10,
+
+
+
+}
