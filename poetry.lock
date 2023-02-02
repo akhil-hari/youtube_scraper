@@ -768,7 +768,7 @@ reference = "cobweb"
 
 [[package]]
 name = "pycobweb"
-version = "0.0.2"
+version = "0.0.21"
 description = "Python implimentation of cobweb"
 category = "main"
 optional = false
@@ -1254,7 +1254,7 @@ reference = "cobweb"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.9,<3.11"
-content-hash = "e2fb6911477a5173231e00ee734e4b5529193ff67aa26241dbaab737a50e0242"
+content-hash = "d6a4396ba2dbdca407c8877180ef0312f7a18a7f6812a584f4695b7be3621c62"
 
 [metadata.files]
 anyio = [
@@ -1846,8 +1846,8 @@ ptyprocess = [
     {file = "ptyprocess-0.7.0.tar.gz", hash = "sha256:5c5d0a3b48ceee0b48485e0c26037c0acd7d29765ca3fbb5cb3831d347423220"},
 ]
 pycobweb = [
-    {file = "pycobweb-0.0.2-py3-none-any.whl", hash = "sha256:1a3e1879c6431af9582876e146419681bb3ab92595d9d5b46aa178a104b7531c"},
-    {file = "pycobweb-0.0.2.tar.gz", hash = "sha256:a49c17c0175ce6dbe482c49a9fd382d15643de6352bcdf6754dbbf4cf2c26c9d"},
+    {file = "pycobweb-0.0.21-py3-none-any.whl", hash = "sha256:c91ef1f2901d98654422bae4d286da8ee5fd282362668da3fd60b8e3a9a8f92c"},
+    {file = "pycobweb-0.0.21.tar.gz", hash = "sha256:49cc75c5032f5c7bdcd18424bd1ee3c3805fb65511bde92c64b73c124d1f684e"},
 ]
 pycparser = [
     {file = "pycparser-2.21-py2.py3-none-any.whl", hash = "sha256:8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9"},
