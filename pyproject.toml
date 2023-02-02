@@ -6,9 +6,15 @@ authors = ["Akhil H Nair <aklhnrpm@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
-pycobweb = {path = ".dist/pycobweb-0.0.2-py3-none-any.whl"}
+pycobweb = {version = "^0.0.2", source = "cobweb"}
 
 [tool.poetry.dev-dependencies]
+
+[[tool.poetry.source]]
+name = "cobweb"
+url = "http://127.0.0.1:8000"
+default = false
+secondary = false
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

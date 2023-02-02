@@ -1,0 +1,1 @@
+ytcfg.set({"CSI_SERVICE_NAME": 'youtube', "TIMING_INFO": {"GetPlayer_rid": '0xf77450b18306738a',"yt_ad": '1',"GetWatchNext_rid": '0xf77450b18306738a',}})

@@ -12,7 +12,9 @@ key_list = [
     "video_length_seconds",
     "keywords",
     "hashtags",
-    "collected_time"
-    ]
+    "collected_time",
+]
 
 video = NormalSchema(key_list, "video_data")
+
+comments = None
