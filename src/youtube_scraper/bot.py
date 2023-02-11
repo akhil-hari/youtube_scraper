@@ -36,15 +36,14 @@ class YoutubeScraper(Bot):
             "https://www.youtube.com/watch?v=_iVx4aJEKKA",
             "https://www.youtube.com/watch?v=h1ehTAaK0os",
         ]
-        bot.limit_url("2/30s", "https://www.youtube.com/watch?v=")
+        # bot.limit_url("2/30s", "https://www.youtube.com/watch?v=")
         for url in urls:
             # bot.limit_url("1/6s","https://www.youtube.com")
             bot.send(
                 {
                     "url": url,
                     # "no_cache": True,
-                    ""
-                    "callback": bot.scrape_details,
+                    "" "callback": bot.scrape_details,
                 }
             )
             # bot.send(

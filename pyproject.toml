@@ -6,7 +6,7 @@ authors = ["Akhil H Nair <aklhnrpm@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
-pycobweb = {version = "^0.0.21", source = "cobweb"}
+pycobweb = {version = "^0.0.22", source = "cobweb"}
 
 [tool.poetry.dev-dependencies]
 

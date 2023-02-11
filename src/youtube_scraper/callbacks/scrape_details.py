@@ -56,12 +56,6 @@ def scrape_details(bot, response):
     video_id = raw_video_id[0].strip() if raw_video_id else None
     channel_id = raw_channel_id[0].strip() if raw_channel_id else None
     script = parser.xpath("//script[contains(text(),'ytcfg.set')]")
-    # print(len(script))
-    # count = 0
-    # for el in script:
-    #     open(f".data/script[{count}].js","w").write(el.xpath("./text()")[0])
-    #     count += 1
-
     data_dict = {
         "video_id": video_id,
         "channel_id": channel_id,
