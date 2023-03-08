@@ -14,7 +14,7 @@
     "noCache": false, // If true cache feature will be compleately desabled.
     "cacheExpire": {
                     // time period to clear the cache available params -> day, week, , hour, minute, second, millisecond, microsecond.
-                    "minutes":1
+                    "minutes":0
                     },
 // DataStore Settings
     "dataStoreBufferStratagy": "TimeBuffer",//TimeBuffer, CountBuffer or None(no buffering)

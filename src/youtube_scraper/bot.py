@@ -43,7 +43,7 @@ class YoutubeScraper(Bot):
                 {
                     "url": url,
                     # "no_cache": True,
-                    "" "callback": bot.scrape_details,
+                    "callback": bot.scrape_details,
                 }
             )
             # bot.send(
