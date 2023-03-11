@@ -25,20 +25,18 @@ class YoutubeScraper(Bot):
 
     def entry_point(bot):
         urls = [
-            "https://www.youtube.com/watch?v=cQcfA_I5jA8",
-            "https://www.youtube.com/watch?v=oN3tz-UetKw",
-            "https://www.youtube.com/watch?v=95ADPYoSRPc",
-            "https://www.youtube.com/watch?v=YS1w0lkyqe0",
-            "https://www.youtube.com/watch?v=x4TpzSinWqg",
-            "https://www.youtube.com/watch?v=PKbL-427wms",
-            "https://www.youtube.com/watch?v=Lq2lTdB1dn8",
-            "https://www.youtube.com/watch?v=Neo6E4sbZvQ",
-            "https://www.youtube.com/watch?v=_iVx4aJEKKA",
-            "https://www.youtube.com/watch?v=h1ehTAaK0os",
+            "https://www.youtube.com/watch?v=WWWDskI46Js",
+            "https://www.youtube.com/watch?v=5WfTEZJnv_8",
+            "https://www.youtube.com/watch?v=JqcncLPi9zw",
+            "https://www.youtube.com/watch?v=AF_f8kl8lJQ",
+            "https://www.youtube.com/watch?v=2EVFYstVuVk",
+            "https://www.youtube.com/watch?v=x55lAlFtXmw",
+            "https://www.youtube.com/watch?v=YIIFp8wDdeM",
+            "https://www.youtube.com/watch?v=-IJuKT1mHO8",
+            "https://www.youtube.com/watch?v=jQeh4BJxfMg",
+            "https://www.youtube.com/watch?v=nW948Va-l10",
         ]
-        # bot.limit_url("2/30s", "https://www.youtube.com/watch?v=")
         for url in urls:
-            # bot.limit_url("1/6s","https://www.youtube.com")
             bot.send(
                 {
                     "url": url,
@@ -46,10 +44,3 @@ class YoutubeScraper(Bot):
                     "callback": bot.scrape_details,
                 }
             )
-            # bot.send(
-            #     {
-            #         "url": "https://httpbin.org/ip",
-            #         "no_cache": True,
-            #         # "callback": bot.scrape_details,
-            #     }
-            # )

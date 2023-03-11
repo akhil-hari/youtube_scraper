@@ -3,7 +3,7 @@ import re
 
 def parse_unicode(text):
     text = text.encode()
-    return text.decode("unicode_escape")
+    return text.decode("utf-8")
 
 
 def parse_hashtags(text):
